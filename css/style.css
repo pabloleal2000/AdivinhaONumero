@@ -45,6 +45,12 @@ body{
     font-family: 'Julius Sans One', sans-serif;
 
 }
+
+.texto_caixa{
+    display: flex;
+    align-items: center;
+}
+
 .botoes_e_input {
     position: relative; 
     display: flex;
