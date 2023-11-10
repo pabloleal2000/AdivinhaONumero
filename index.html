@@ -11,17 +11,18 @@
 </head>
 <body>
     <div class="botoes_e_input">
-        <div class="titulo">
-            <h1 class="titulo_conteudo">Adivinhe o Numero</h1>
-            <p>Digite um numero no campo abaixo para tentar adivinhar</p>
+        <div class="caixa">
+            <div class="titulo">
+                <h1 class="titulo_conteudo">Adivinhe o Numero</h1>
+                <p>Digite um numero no campo abaixo para tentar adivinhar</p>
+            </div>
+            <input class="inserir_numero" type="number" id="numero" name="numero">
+            <div class="botao_box">
+                <button id="tentativa" class="botao_style">Tentar</button>
+                <button id="novo_jogo" class="botao_style">Novo Jogo</button>
+            </div>
         </div>
-
-        <input class="inserir_numero" type="number" id="numero" name="numero">
-
-        <div class="botao_box">
-            <button id="tentativa" class="botao_style">Tentar</button>
-            <button id="novo_jogo" class="botao_style">Novo Jogo</button>
-        </div>
+        
         <script src="javascript/app.js" defer></script>
         <div id="particles-js"></div> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
     </div>
